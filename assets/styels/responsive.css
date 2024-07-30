@@ -1,0 +1,63 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+
+    /* header section starts here  */
+    header {
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    header nav ul,
+    nav button {
+        display: none;
+    }
+
+    header .icon {
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 2.25rem;
+    }
+
+    .hero img {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+/* for medium devices  */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* header section starts here  */
+    header {
+        padding: 50px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero .text {
+        max-width: 700px;
+    }
+
+    .hero h5 {
+        max-width: 700px;
+    }
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1250px) {
+
+    /* header section starts here  */
+    header {
+        padding: 50px;
+    }
+}
