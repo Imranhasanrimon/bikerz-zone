@@ -31,6 +31,11 @@ section {
     text-align: center;
 }
 
+a {
+    color: white;
+    font-weight: 500;
+}
+
 span {
     color: rgb(231, 111, 81);
 }
@@ -61,10 +66,7 @@ header nav ul {
     gap: 2.5rem;
 }
 
-header nav ul a {
-    color: white;
-    font-weight: 500;
-}
+
 
 header .icon {
     display: none;
@@ -237,4 +239,38 @@ main {
 .faq .container .text .box .angle {
     position: absolute;
     right: 20px;
+}
+
+/* footer area starts here  */
+footer {
+    background: black;
+    margin-bottom: -60px;
+    padding: 55px 20px;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .text a {
+    margin-right: 30px;
+}
+
+footer .app h3,
+footer .text div {
+    color: white;
+    margin-bottom: 16px;
+}
+
+footer .app img {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer .small-device {
+    display: none;
+
 }

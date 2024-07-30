@@ -56,6 +56,31 @@
         flex-direction: column;
     }
 
+    /* footer area starts here  */
+    footer {
+        padding: 20px;
+    }
+
+    footer .footer {
+        flex-direction: column;
+        align-items: start;
+        gap: 60px;
+
+    }
+
+    footer .app img {
+        height: 70px;
+    }
+
+    .footer .small-device {
+        display: block;
+        align-self: center;
+    }
+
+    .footer .large-device {
+        display: none;
+    }
+
 
 
 }
@@ -108,6 +133,12 @@
     /* frequently asked question section starts here  */
     .faq .container {
         flex-direction: column;
+    }
+
+    /* footer area starts here  */
+
+    footer .app img {
+        height: 70px;
     }
 
 
