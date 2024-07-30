@@ -201,3 +201,40 @@ main {
     margin: 15px 0;
     color: rgb(35, 166, 240);
 }
+
+/* frequently asked question section starts here  */
+.faq .container {
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+}
+
+.faq .container .text .box {
+    padding: 20px 24px;
+    padding-right: 38px;
+    border: 1px solid rgb(213, 229, 251);
+    border-radius: 5px;
+    margin-top: 18px;
+    position: relative;
+}
+
+.faq .container img {
+    width: 70%;
+    align-self: center;
+}
+
+.faq .container .text .box h2 {
+    color: rgb(56, 56, 56);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.faq .container .text .box p {
+    color: rgb(126, 132, 140);
+    margin-top: 8px;
+}
+
+.faq .container .text .box .angle {
+    position: absolute;
+    right: 20px;
+}
