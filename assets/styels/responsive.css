@@ -46,6 +46,7 @@
     }
 
     /* news section starts here  */
+    .review .box,
     .news-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -87,8 +88,14 @@
     }
 
     /* news section starts here  */
+    .review .box,
     .news-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .double-span {
+        grid-column: span 2;
     }
 
 }
