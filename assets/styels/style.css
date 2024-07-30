@@ -83,7 +83,11 @@ header .icon {
 }
 
 .hero .text {
-    max-width: 480px;
+    max-width: 465px;
+}
+
+.hero .text span {
+    font-size: 4rem;
 }
 
 .hero p {
@@ -94,7 +98,7 @@ header .icon {
 
 .hero h2 {
     color: white;
-    font-size: 3rem;
+    font-size: 2.9rem;
 }
 
 .hero h5 {
