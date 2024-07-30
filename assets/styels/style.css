@@ -20,6 +20,15 @@
     color: white;
 }
 
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+span {
+    color: rgb(231, 111, 81);
+}
+
 /* header section starts here  */
 header {
     /* margin: 0 auto; */
@@ -84,4 +93,47 @@ header .icon {
     max-width: 406px;
     color: rgb(224, 224, 224);
     font-weight: 300;
+}
+
+
+/* main area  */
+main {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+/* feature section starts here  */
+.feature {
+    max-width: 1170px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.feature h6 {
+    font-size: 0.875rem;
+    position: relative;
+}
+
+.feature h6::after {
+    content: '';
+    height: 1px;
+    width: 58.5px;
+    background: rgb(231, 111, 81);
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feature .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    margin-top: 70px;
+}
+
+.feature .image-container img {
+    width: 100%;
 }
